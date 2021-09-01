@@ -20,7 +20,7 @@ Follow the instructions below to record motion data samples from the TI MSP432/E
 Alternatively, you can instead use data that has already been collected from the [Continuous motion recognition tutorial](https://docs.edgeimpulse.com/docs/continuous-motion-recognition) by cloning the [Edge Impulse tutorial project](https://studio.edgeimpulse.com/public/14299/latest) into your account (select the **Clone this project** button on the top right). 
 
 1. Open the file `get_msp432_motion_data/get_msp432_motion_data.ino` in your Arduino IDE
-1. Select the **RED LaunchPag w/ msp432p401r EMT (48MHz)** board and port from the 'Tools' menu
+1. Select the **RED LaunchPad w/ msp432p401r EMT (48MHz)** board and port from the 'Tools' menu
 1. Compile and flash the program onto your board
 1. Open a command line window and run `edge-impulse-data-forwarder --frequency 50`,  select your board and project settings in your Edge Impulse account:
     ![Edge Impulse data forwarder](images/data-forwarder.png)
